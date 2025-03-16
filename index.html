@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarathi AI - Disaster Relief Platform</title>
+    <meta name="description" content="AI-powered disaster relief coordination platform" />
+    <meta name="author" content="Sarathi AI" />
+    <meta property="og:image" content="/og-image.png" />
+    <style>
+      /* Fallback styles in case CSS fails to load */
+      body {
+        background-color: #121212;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      #root:empty {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+      }
+      #root:empty:before {
+        content: 'Loading Sarathi AI...';
+        color: #4CC9F0;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <div style="padding: 20px; max-width: 800px; margin: 100px auto; background-color: #1a1a1a; color: white; border: 1px solid #FF2E63; border-radius: 8px; text-align: center;">
+        <h1 style="color: #FF2E63; margin-bottom: 20px;">JavaScript Required</h1>
+        <p>This application requires JavaScript to run. Please enable JavaScript in your browser settings and reload the page.</p>
+      </div>
+    </noscript>
+  </body>
+</html>
